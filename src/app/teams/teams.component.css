@@ -1,0 +1,21 @@
+.teams{
+    display: grid;
+    grid-template-rows: 100px 1fr;
+    height: 100vh;
+}
+
+.title{
+    grid-row: 1;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    grid-row: 2;
+    height: auto;
+    background-color: antiquewhite;
+    height: 1fr;
+}
